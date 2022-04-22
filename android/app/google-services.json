@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028519618908",
+    "project_id": "hellome-603ac",
+    "storage_bucket": "hellome-603ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028519618908:android:7657f4cfaedf501c2ff999",
+        "android_client_info": {
+          "package_name": "com.example.startup_namer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028519618908-u684kuf79n7vpv6s7j8d9p3m02vnkct8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Y-Lijs4uv0Do_RxibSjCmmEf-Dr-Q6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028519618908-u684kuf79n7vpv6s7j8d9p3m02vnkct8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
