@@ -1,16 +1,9 @@
-# startup_namer
+DRY PART
 
-A new Flutter project.
 
-## Getting Started
+1. SnappingSheetController. the controller holds data (state) of the snapping sheet widget, mainly reagarding its snapping positions and allow to edit it and affect the SnappingSheet widget properties reflected on the user side. for example - currentPosition, SnapToPosition, setSnappingSheetFactor , isAttached, etc.
 
-This project is a starting point for a Flutter application.
+2. The snappingCurve, combined with snappingDuration  allows the developer to define the animoation feature along with its length, some examples values would be Ease-In-Out, elasticOut, BounceIn and other familiar motion design possibilities.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. GestureDectector allows dragging unlike InkWell (which is gernealy more limited), and InkWell allow using "ripple" effect while GestureDetector isn't.
